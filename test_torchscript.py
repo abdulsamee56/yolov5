@@ -9,7 +9,7 @@ model = DetectMultiBackend('yolov5s.torchscript')
 model.eval()
 
 # Load the input image
-image_path = "data/images/red.jpg"  # Replace with your image path
+image_path = "data/images/test1.png"  # Replace with your image path
 input_image = cv2.imread(image_path)
 original_height, original_width, _ = input_image.shape
 
